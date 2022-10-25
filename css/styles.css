@@ -214,7 +214,7 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(255, 255, 255, 0)
     ),
-    url(./Images/imgheader.jpg);
+    url(../Images/imgheader.jpg);
   max-width: 1600px;
   margin: 0 auto;
 }
