@@ -217,13 +217,16 @@ body {
     url(./../Images/imgheader.jpg);
   max-width: 1600px;
   margin: 0 auto;
+  height: 600px;
+  align-items: center;
+  display: flex;
 }
 .head {
   display: flex;
   align-items: center;
 
   height: 600px;
-
+  align-content: center;
   justify-content: center;
   padding-left: 280px;
   padding-right: 280px;
@@ -263,6 +266,7 @@ body {
   display: flex;
   font-weight: 700;
   font-size: 14px;
+  padding-left: 0;
 }
 .loremIpsum .sectionLoremParagraph {
   color: var(--colorLoremIpsum);
@@ -272,6 +276,10 @@ body {
   font-weight: 700;
   margin-top: 5px;
   text-transform: uppercase;
+}
+.sectionLoremHeader {
+  padding-top: 30px;
+  margin-top: 0;
 }
 .imgIndex {
   display: flex;
